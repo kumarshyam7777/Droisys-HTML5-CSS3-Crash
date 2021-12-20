@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 3.8rem;
+  padding: 5rem 0rem;
+}
+a {
+  color: red;
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+
+button {
+  font-size: 2.6rem;
+}
+nav {
+  background: red;
+  color: blueviolet;
+  padding: 3rem;
+}
+
+nav h1 {
+  float: left;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+}
+
+nav li {
+  float: left;
+  margin: 0rem 4rem;
+}
+
+.hero-section {
+  background-image: url("/pexels-ella-olsson-3026810.jpg");
+  height: 80rem;
+  background-position: top;
+}
+
+.form-section {
+  text-align: center;
+}
+
+form input,
+form label,
+form textarea {
+  display: block;
+  font-size: 2.4rem;
+}
+
+form input,
+form textarea {
+  margin: 2rem auto;
+}

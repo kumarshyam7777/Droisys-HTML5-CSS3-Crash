@@ -1,0 +1,21 @@
+html {
+  font-size: 62.5%; /*By default html font size is 16px*/
+}
+
+.text-section {
+  font-size: 1.5rem; /* 16 * 1.5 = 24 */
+}
+
+.text-section div {
+  font-size: 1.5rem; /* 16 * 1.5 * 1.5 = 36 */
+  margin-top: 2rem; /* 16 * 1.5 * 1.5 * 2 = 72 */
+  padding: 1.5rem; /* 16 * 1.5 * 1.5 * 1.5 = 54*/
+}
+.text-section button {
+  font-size: 1.5em;
+  padding: 2em;
+  margin: 1em;
+  background: saddlebrown;
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+}

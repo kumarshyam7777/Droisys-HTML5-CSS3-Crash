@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Ubuntu+Condensed&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-header {
+  background-color: #d0d5d6;
+}
+
+.main-section {
+  background-color: #e0e0e0;
+}
+
+.bg-green {
+  color: teal;
+}
+
+span {
+  background-color: aquamarine;
+}

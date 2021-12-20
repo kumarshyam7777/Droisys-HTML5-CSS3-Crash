@@ -1,0 +1,44 @@
+h1 {
+  color: cornflowerblue;
+}
+.random h1 {
+  color: darkmagenta;
+}
+
+/* This is ll selector property it applies of all the property */
+* {
+  font-size: 20px;
+}
+
+/* This is .my-list class and inside the class we have to select ul */
+.my-list + ul {
+  list-style: decimal-leading-zero;
+}
+
+/* This is .nav-links(class Selector) and applied to parent and inside their child element of the class */
+.nav-links > li {
+  color: darkviolet;
+}
+/* Another way to write the above style code  */
+.nav-links li {
+  color: indianred;
+}
+
+/* This is ul and then li if we want to select li under ul, Note - It only applies on Parent class or element or id selector  */
+ul > li {
+  color: darkred;
+}
+
+/* Inside class selector then li and a , inside one element to other element if we want to style the code inside one elemenet to other element  .nav-links (class selector), then  li and then a, means class then li element and then a  */
+.nav-links li a {
+  color: black;
+}
+
+/* 
+.nav-links a {
+    color: red;
+}
+This effects and change the color of inside the class all a anchor tag link..... 
+*/
+
+

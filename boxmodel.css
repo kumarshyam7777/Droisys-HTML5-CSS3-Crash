@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  background-color: rgb(41, 29, 153);
+  color: orchid;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  border: 25px solid black;
+  
+}

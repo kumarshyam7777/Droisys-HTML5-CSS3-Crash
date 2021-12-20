@@ -1,0 +1,24 @@
+/* This is only applied on the first li element to the .links class */
+.links li:nth-child(1) {
+  color: red;
+}
+
+/* 
+.links :nth-child(1) {
+  color: red;
+}
+This is applied all the under the class element of .links
+*/
+
+/* 
+.links :nth-child(3) {
+  color: red;
+}
+This is applied all the under the class element of .links
+*** Note :- This will not work if only one class is there 
+*/
+
+/* If there is more than one class with the same name, then it will apply in which class number the nth-child will be applied, here the example is 2, so it only applies of 2 */
+.links:nth-child(2) {
+  color: yellowgreen;
+}
